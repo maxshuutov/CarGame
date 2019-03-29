@@ -48,4 +48,20 @@ public class Car2dController : MonoBehaviour
     {
         return moveSpeed;
     }
+
+
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        car.simulated = false;
+        Invoke("GG", 1f);
+    }
+
+    void GG()
+    {
+        gm.Restart(); ;
+    }
+
+
+
 }

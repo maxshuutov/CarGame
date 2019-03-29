@@ -109,7 +109,7 @@ public class Spawner : MonoBehaviour
             {
 
 
-                switch (Random.Range(1, 3))
+                switch (Random.Range(1, 4))
                 {
                     case 1:
                         CreateAtPosition(roadStraigthPrefab);

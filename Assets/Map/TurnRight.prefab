@@ -42,7 +42,6 @@ GameObject:
   - component: {fileID: 232037173475166479}
   - component: {fileID: 232037173475166478}
   - component: {fileID: 232037173475166473}
-  - component: {fileID: 8984413859742739165}
   m_Layer: 0
   m_Name: TurnRight
   m_TagString: TurnRight
@@ -152,24 +151,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPos: {fileID: 232037172976337963}
---- !u!50 &8984413859742739165
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 232037173475166475}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
